@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  month: 1
+  year: 1
+  status: MyString
+  total_gross: 9.99
+  total_deductions: 9.99
+  total_net_pay: 9.99
+  employees_count: 1
+  processed_at: 2026-09-15 12:57:07
+  payment_date: 2026-09-15
+  notes: MyText
+
+two:
+  month: 1
+  year: 1
+  status: MyString
+  total_gross: 9.99
+  total_deductions: 9.99
+  total_net_pay: 9.99
+  employees_count: 1
+  processed_at: 2026-09-15 12:57:07
+  payment_date: 2026-09-15
+  notes: MyText

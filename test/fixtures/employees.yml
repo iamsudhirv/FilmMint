@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone: MyString
+  employee_code: MyString
+  department: one
+  designation: MyString
+  date_of_joining: 2026-09-15
+  bank_name: MyString
+  bank_account_number: MyString
+  bank_ifsc: MyString
+  tax_id: MyString
+  status: MyString
+  avatar_url: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone: MyString
+  employee_code: MyString
+  department: two
+  designation: MyString
+  date_of_joining: 2026-09-15
+  bank_name: MyString
+  bank_account_number: MyString
+  bank_ifsc: MyString
+  tax_id: MyString
+  status: MyString
+  avatar_url: MyString

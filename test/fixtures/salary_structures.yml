@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee: one
+  base_salary: 9.99
+  hra: 9.99
+  special_allowance: 9.99
+  conveyance_allowance: 9.99
+  medical_allowance: 9.99
+  pf_deduction_rate: 9.99
+  esi_deduction_rate: 9.99
+  professional_tax: 9.99
+  tds_tax_rate: 9.99
+
+two:
+  employee: two
+  base_salary: 9.99
+  hra: 9.99
+  special_allowance: 9.99
+  conveyance_allowance: 9.99
+  medical_allowance: 9.99
+  pf_deduction_rate: 9.99
+  esi_deduction_rate: 9.99
+  professional_tax: 9.99
+  tds_tax_rate: 9.99
