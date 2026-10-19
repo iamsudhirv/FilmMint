@@ -26,3 +26,18 @@ services:
           property: connectionString
       - key: FRONTEND_ORIGINS
         sync: false   # set to your Vercel URL, e.g. https://filmmint.vercel.app
+
+  # Vue frontend as a free static site (no Vercel needed).
+  - type: web
+    name: filmmint-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite   # single-page app: send every path to index.html
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        sync: false   # set to the filmmint-api URL, e.g. https://filmmint-api.onrender.com
