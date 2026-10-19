@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.5", ">= 8.0.5.1"
+gem "rails", "~> 8.1.4"
 # Use sqlite3 as the database for Active Record
 gem "pg", "~> 1.5"
 # Rails 8.0 is not compatible with json 3.x (quirks_mode removed)
