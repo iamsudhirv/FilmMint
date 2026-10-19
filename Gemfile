@@ -5,7 +5,7 @@ gem "rails", "~> 8.0.5", ">= 8.0.5.1"
 # Use sqlite3 as the database for Active Record
 gem "pg", "~> 1.5"
 # Rails 8.0 is not compatible with json 3.x (quirks_mode removed)
-gem "json", "~> 2.19"
+gem "json", "~> 3.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
